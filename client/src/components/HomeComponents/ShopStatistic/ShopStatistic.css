@@ -1,0 +1,19 @@
+.flag {
+    width: 100%;
+    margin-top: -0.3px;
+    height: 250px;
+    position: relative;
+    clip-path: polygon(0 100%, 50% calc(100% - 65px), 100% 100%, 100% 0, 0 0);
+    font-family: 'Montserrat';
+    padding: 20px;
+    text-align: center;
+}
+.flag-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.flag-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+}

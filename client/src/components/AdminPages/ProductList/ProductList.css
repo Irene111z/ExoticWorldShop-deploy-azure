@@ -1,0 +1,24 @@
+.product-list-img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+.product-edit-icon{
+    max-width: 20px;
+}
+.product-list-table{
+    width: 100%;
+    text-align: center;
+}
+.product-list-table td{
+    border: #cccccc solid 1px;
+}
+.product-list-table td:first-child{
+    width: 90px;
+}
+.product-list-thead{
+    color: #5F6368;
+}
+.product-list-thead td{
+    padding: 5px 0;
+}

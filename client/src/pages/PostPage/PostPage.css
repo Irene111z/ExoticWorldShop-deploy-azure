@@ -1,0 +1,22 @@
+.post-page{
+    color: #fff;
+    font-size: 18px;
+    max-width: 860px;
+}
+.post-authors{
+    background-color: #5D7947;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+.post-author-name{
+    color: #ADFF2F;
+}
+.post-image{
+    border-radius: 10px;
+    width: 100%;
+}
+.post-title{
+    font-size: 28px;
+    font-weight: 600;
+}

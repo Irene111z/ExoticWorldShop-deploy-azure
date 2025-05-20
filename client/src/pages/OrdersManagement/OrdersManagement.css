@@ -1,0 +1,21 @@
+
+.order-list-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-order-by-phone{
+    border: solid rgb(210, 210, 210) 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+.filter-icon{
+    max-width: 18px;
+}
+.order-filter-select{
+    border: none;
+}
+select{
+    font-weight: 500;
+    text-align: right;
+}

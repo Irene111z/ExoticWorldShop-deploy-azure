@@ -1,0 +1,75 @@
+.user-profile-form {
+  width: 360px;
+}
+
+.user-profile-form label {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.user-profile-form input {
+  background-color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.profile-info input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.profile-info button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-info button:hover {
+  background-color: #0056b3;
+}
+
+.order-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.order-item p {
+  margin: 5px 0;
+}
+
+.edit-profile-icon {
+  max-width: 30px;
+}
+
+.user-profile-title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn-save-profile-changes {
+  background-color: #6FB312;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 500;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+}
+.user-profile-icons img{
+  cursor: pointer;
+}
+.user-profile-icons img:hover{
+  scale: 1.05;
+}

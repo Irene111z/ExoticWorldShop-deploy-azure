@@ -1,0 +1,17 @@
+.post-card{
+
+}
+.card-body{
+    height: 130px;
+}
+.post-card-img{
+    width: 100%;
+}
+.post-edit-icon{
+    cursor: pointer;
+    width: 28px;
+}
+.post-edit-icon:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+}

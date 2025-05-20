@@ -1,0 +1,38 @@
+.order-card{
+    background-color: #F6FBF1;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: #000000;
+    border: none;
+}
+.order-card-gray-text{
+    color: #5F6368;
+    font-weight: 400;
+}
+.order-card-semibold{
+    font-weight: 600;
+}
+.order-card-item-img{
+    max-width: 60px;
+}
+.order-card-items {
+    width: 100%;
+    border-spacing: 0 10px;
+    border-collapse: separate;
+}
+
+.accordion-button::after {
+    display: none;
+}
+.order-card-toggle {
+    width: 18px;
+    height: 18px;
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.3s ease-in-out;
+}
+.order-card:not(.collapsed) .order-card-toggle {
+    transform: rotate(180deg);
+}

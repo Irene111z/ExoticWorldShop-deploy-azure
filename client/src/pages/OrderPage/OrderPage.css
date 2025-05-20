@@ -1,0 +1,38 @@
+.order-page{
+    background-color: #fff;
+    border-radius: 25px;
+}
+.order-item{
+    background-color: #fff;
+}
+.order-item-img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    overflow: visible;
+}
+.order-item-old-price{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #858585;
+}
+.order-form input, .order-form select{
+    border: 1px solid rgb(220, 220, 220);
+    padding: 0 0.5rem;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.order-form textarea{
+    border: 1px solid rgb(220, 220, 220);
+    padding: 0 0.5rem;
+    height: 100px;
+    border-radius: 5px;
+}
+.confirm-order-btn{
+    height: 40px;
+    background-color: #6FB312;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}

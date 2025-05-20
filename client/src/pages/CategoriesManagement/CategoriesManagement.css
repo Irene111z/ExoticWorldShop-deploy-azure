@@ -1,0 +1,33 @@
+.category-edit-icon{
+    max-width: 20px;
+}
+.category-list-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-category-create, .btn-category-change, .btn-category-delete{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+.category-input{
+    border: solid 1px rgb(210, 210, 210);
+    text-align: start;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.btn-category-create{
+    background-color: #6FB312;
+}
+.btn-category-change{
+    background-color: #FF7A00;
+}
+.btn-category-delete{
+    background-color: #FF003C;
+}
+.category-form-title{
+    font-weight: 600;
+}

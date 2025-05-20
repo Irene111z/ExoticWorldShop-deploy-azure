@@ -1,0 +1,73 @@
+.blog{
+    background-color: #5D7947;
+    color: #fff;
+    font-family: "Montserrat";
+}
+.blog a{
+    text-decoration: none;
+}
+.blog-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog-block{
+    position: relative;
+}
+.blog-block-img, .blog-block-img-overlay{
+    width: 200px;
+}
+.blog-block-img{
+    position: relative;
+    z-index: 1;
+}
+.blog-block-img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: auto;
+}
+.blog-col .block3 .blog-block-img{
+    animation: turtle-animation 1s infinite;
+}
+.blog-col .block2 .blog-block-img-overlay{
+    animation: hedgehog-animation 1s infinite;
+}
+.blog-col .block1 .blog-block-img-overlay{
+    animation: raccoon-animation 1s infinite;
+}
+@keyframes turtle-animation {
+    50% {
+        transform: rotate(-0.005turn);
+    }
+}
+@keyframes hedgehog-animation {
+    50% {
+        transform: scale(1.02);
+    }
+}
+@keyframes raccoon-animation {
+    50% {
+        transform: rotate(0.01turn);
+    }
+}
+    
+.blog-text-medium{
+    font-size: 24px;
+    font-weight: 700;
+}
+.blog-block-title{
+    text-align: center;
+    font-size: 20px;
+    background-color: #ADFF2F;
+    color: #546C42;
+    height: 50px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 280px;
+    font-weight: 500;
+}
+.blog-text-small{
+    font-size: 16px;
+}

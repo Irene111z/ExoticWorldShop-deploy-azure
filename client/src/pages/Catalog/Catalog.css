@@ -1,0 +1,17 @@
+.catalog-current-category{
+    font-size: 20px;
+    font-weight: 600;
+    color: #C1FA63;
+    border-bottom: 2px solid #C1FA63;
+    width: max-content;
+}
+.catalog-breadcrumbs, .catalog-breadcrumbs a{
+    color: #fff;
+    text-decoration: none;
+}
+.catalog-breadcrumbs a:hover{
+    color: #C1FA63;
+}
+.catalog-breadcrumbs-disabled{
+    color: #b5b5b5;
+}

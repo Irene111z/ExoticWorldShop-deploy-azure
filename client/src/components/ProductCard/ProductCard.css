@@ -1,0 +1,63 @@
+.product-card-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product-card-content {
+    height: 100%;
+    min-width: 240px;
+    max-width: 290px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    padding: 20px;
+}
+
+.product-card {
+    height: 370px;
+}
+
+.product-card-rating img {
+    width: 20px;
+}
+
+.product-card-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2E4628;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img-out-of-stock {
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
+.product-card-old-price {
+    font-size: 14px;
+    color: #5F6368;
+    text-decoration: line-through;
+}
+
+.product-card-price {
+    color: #FF7A00;
+    font-size: 16px;
+    font-weight: 700;
+}
+.product-card-price-disabled{
+    color: #5F6368;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-card-btns img {
+    width: 35px;
+}
+
+button.product-card-btn-add-to-cart {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}

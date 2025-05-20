@@ -1,0 +1,134 @@
+.cart-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-modal-content {
+    background: white;
+    padding: 1.5rem;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+}
+.btn-continue-shopping, .btn-go-to-order-form{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-go-to-order-form{
+    background-color: #546C42;
+}
+.btn-continue-shopping{
+    background-color: #858585;
+}
+
+.cart-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cart-modal-body {
+    margin-top: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.cart-item {
+    border-bottom: 1px rgb(220, 220, 220) solid;
+}
+.cart-item-name{
+    font-size: 15px;
+}
+
+.cart-item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.delete-cart-item-btn{
+    width: 18px;
+}
+
+.cart-item-quantity p{
+    border-top: rgb(220, 220, 220) solid 1px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+    height: 40px;
+    line-height: 40px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.cart-item-price{
+    width: 100px;
+    text-align: right;
+}
+.cart-item-sale-price{
+    font-size: 15px;
+}
+.cart-item-old-price{
+    font-size: 14px;
+    color: #858585;
+    text-decoration: line-through;
+}
+
+.cart-item-quantity-inc {
+    background-color: #fff;
+    border: rgb(220, 220, 220) solid 1px;
+    border-radius: 0 5px 5px 0;
+    height: 40px;
+    width: 30px;
+    text-align: center;
+}
+
+.cart-item-quantity-dec {
+    background-color: #fff;
+    border: rgb(220, 220, 220) solid 1px;
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    width: 30px;
+    text-align: center;
+}
+
+.cart-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

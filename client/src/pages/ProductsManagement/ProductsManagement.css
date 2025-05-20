@@ -1,0 +1,96 @@
+.admin-products-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-product-admin{
+    border: solid rgb(210, 210, 210) 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 15px;
+    width: 400px;
+}
+.btn-save-product-changes, .btn-delete-product{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 250px;
+}
+.add-product-feature-btn{
+    background-color: #6FB312;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+}
+.btn-save-product-changes{
+    background-color: #FF7A00;
+}
+
+.btn-delete-product{
+    background-color: #FF003C;
+}
+.add-product-link{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 200px;
+    background-color: #6FB312;
+}
+.edit-product-form label{
+    color: #5F6368;
+    margin-bottom: 0.25rem;
+}
+.edit-product-form input, .edit-product-form textarea, .edit-product-form select, .edit-product-feature{
+    max-width: 700px;
+    border: solid rgb(210, 210, 210) 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+.edit-product-form input[type="file"]{
+    padding-left: 0;
+    border: none;
+}
+.image-preview-btn{
+    width: 160px;
+    padding: 0.25rem;
+    color: #fff;
+    border: none;
+    background-color: #6FB312;
+    border-radius: 5px;
+}
+.image-additional-btn{
+    width: 160px;
+    padding: 0.25rem;
+    color: #fff;
+    border: none;
+    background-color: #b5b5b5;
+    border-radius: 5px;
+}
+.edit-product-feature{
+    width: max-content;
+}
+.btn-delete-product-image{
+    border: none;
+    background-color: #fff;
+}
+.edit-product-feature input, .edit-product-feature select{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+.edit-product-price{
+    width: 103px;
+}
+.edit-product-quantity{
+    width: 100px;
+}
